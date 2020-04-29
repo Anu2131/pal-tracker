@@ -6,13 +6,13 @@ public interface TimeEntryRepository {
 
     TimeEntry create(TimeEntry timeEntry);
 
-    TimeEntry find(long timeEntryId);
+    TimeEntry find(Long timeEntryId);
 
     List list();
 
-    TimeEntry update(long eq, TimeEntry any);
+    TimeEntry update(Long eq, TimeEntry any);
 
-    void delete(long timeEntryId);
+    void delete(Long timeEntryId);
 
     // TimeEntry find(long id);
 }
